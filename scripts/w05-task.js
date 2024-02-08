@@ -57,6 +57,7 @@ const filterTemples = (temples) => {
                     (temple) => new Date(temple.dedicated) < new Date(1950, 0, 1)
                 )
             );
+            break;
         case "all":
             displayTemples(temples);
     }
